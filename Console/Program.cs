@@ -13,7 +13,7 @@ namespace Console
 
             foreach (var car in productManager.GetAll())
             {
-                System.Console.WriteLine(car.Description+"\tYear:"+car.ModelYear +"\nCar daily price -> " +car.DailyPrice+"\n");
+                System.Console.WriteLine(car.Description+"\tYear:"+car.ModelYear +"\nDaily price -> " +car.DailyPrice+"\n");
             }
 
 
